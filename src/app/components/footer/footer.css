@@ -1,0 +1,25 @@
+.footer{
+  background-color: gray;
+  height : 100px;
+  bottom: 10px;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  left: 0;
+}
+.footer a{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: darkgray;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer a:hover{
+  background-color: lightgray;
+}

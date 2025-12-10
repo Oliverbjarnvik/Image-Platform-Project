@@ -1,0 +1,33 @@
+.navbar{
+  background-color: gray;
+  height : 50px;
+  top: 5px;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  left: 0;
+}
+.navbar a{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: darkgray;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar a:hover{
+  background-color: lightgray;
+}
+.navbarLinks {
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+ul {
+  list-style-type: none;
+}
